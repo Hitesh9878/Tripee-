@@ -1,0 +1,199 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('trip.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type='date'],
+  input[type='text'],
+  input[type='number'],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #budgetTracking {
+    margin-top: 20px;
+  }
+  #budgetTracking p{
+    color: black;
+    font-weight: bold;
+  }
+  p span {
+    font-weight: bold;
+  }
+  body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url('IMG_2143_SIW.jp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden; 
+  }
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    animation-name: example;
+    animation-duration: 6s;
+  }
+  
+  @keyframes example {
+    from {
+      background-color: rgb(0, 255, 242);
+    }
+    to {
+      background-color: yellow;
+      border-radius: 50px;
+    }
+  }
+  
+  .logo h1 {
+    color: #fff;;
+    animation-name: example1;
+    animation-duration: 6s;
+    margin: 0;
+    font-size: 25px;
+  }
+  
+  .nav1 ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .nav1 ul li {
+    margin-right: 50px;
+  }
+  
+  .nav1 ul li a {
+    color: #fff;;
+    text-decoration: none;
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .nav1 ul li a:hover {
+    color: red;
+    transition: 0.3s;
+  }
+  
+  .nav1 ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav1 ul li a:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-form input {
+    padding: 12px 20px;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 300px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  .search-form input:focus {
+    border-color: #2980b9;
+  }
+  
+  .search-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  .search-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Add some placeholder style for the input */
+  .search-form input::placeholder {
+    color: #aaa; /* Change placeholder color */
+    font-style: italic; /* Italicize placeholder text */
+  }  
